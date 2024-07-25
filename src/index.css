@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.bg-bgDark{
+  --tw-bg-opacity: 1;
+  background-color: rgb(34 34 59 / var(--tw-bg-opacity));
+}
+.bg-bgDark2 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(74 78 105 / var(--tw-bg-opacity));
+}
+.bg-imagecss{
+  --tw-bg-opacity: 0.8;
+  background-color: rgb(34 34 59 / var(--tw-bg-opacity));
+}
